@@ -1,0 +1,410 @@
+{
+ "Ergotron": {
+  "D": 72,
+  "O": 52.5,
+  "score": 61.5,
+  "d": [
+   8,
+   7,
+   7,
+   8,
+   6
+  ],
+  "o": [
+   5,
+   5,
+   6,
+   5
+  ],
+  "dr": [
+   "The paid outcome is a physical product — carts, mounts, power systems. AI cannot replicate steel, motion engineering or battery systems.",
+   "Some value migrates to the clinical software running on the cart, but hardware with embedded power and telemetry keeps a defensible layer.",
+   "Manufacturing scale, distribution and hospital qualification raise entry costs; AI does not lower them meaningfully.",
+   "Sold through distributors and GPOs; AI procurement agents could compress channel margin but cannot bypass the product.",
+   "Hospital standardisation on a cart fleet is sticky, but carts are replaceable at refresh cycles."
+  ],
+  "or": [
+   "Cognitive work is concentrated in quoting, customer service, demand planning and engineering — perhaps 30–40% of activity.",
+   "Meaningful efficiency in order entry, forecasting and support, not an order-of-magnitude shift.",
+   "Connected carts open a fleet-intelligence product: battery health, utilisation and placement analytics sold to hospital IT.",
+   "Usage telemetry across thousands of hospital carts is proprietary, but narrow."
+  ],
+  "exec": "A durable physical-product business with modest internal AI upside. The more interesting path is turning connected carts into a fleet-intelligence subscription for hospital IT and nursing operations.",
+  "durR": "Physical products, hospital qualification and channel scale protect the profit pool; AI threatens channel margin more than the product.",
+  "oppR": "Opportunity sits in configure-price-quote, demand planning and a new data product from connected carts rather than labour compression."
+ },
+ "KMM Group": {
+  "D": 80,
+  "O": 55,
+  "score": 66.3,
+  "d": [
+   9,
+   8,
+   7,
+   8,
+   8
+  ],
+  "o": [
+   5,
+   6,
+   5,
+   6
+  ],
+  "dr": [
+   "The paid outcome is a physical, validated component. AI cannot grind a guidewire to micron tolerance.",
+   "Value stays with whoever holds the validated process; design software does not capture it.",
+   "ISO 13485 / AS9100 certification, specialised machines and decades of process know-how are hard to replicate.",
+   "OEMs qualify suppliers; there is no middle layer to bypass.",
+   "Switching a validated component supplier requires re-qualification — months of cost and regulatory risk."
+  ],
+  "or": [
+   "Cognitive work is in quoting, CNC programming, quality documentation and scheduling — a minority of activity.",
+   "Quoting and quality documentation can compress meaningfully; machining itself does not.",
+   "Limited new product lines from AI; mainly faster NPI and better yield.",
+   "Decades of process parameters and inspection data are proprietary and valuable for yield optimisation."
+  ],
+  "exec": "A highly durable, validated-process manufacturer. AI is a margin and throughput story — faster quotes, lighter quality paperwork and better yield — not a reinvention.",
+  "durR": "Regulatory qualification and process know-how make displacement by AI-native entrants implausible.",
+  "oppR": "Upside is concentrated in RFQ-to-quote, first article and inspection documentation, and process data for yield."
+ },
+ "Loftware": {
+  "D": 78,
+  "O": 67.5,
+  "score": 72.6,
+  "d": [
+   7,
+   7,
+   8,
+   8,
+   9
+  ],
+  "o": [
+   6,
+   7,
+   7,
+   7
+  ],
+  "dr": [
+   "Customers pay for a validated system of record for labels, not just designs; generative AI can create artwork but not the validated, auditable workflow.",
+   "Some risk as ERP and PLM vendors embed labeling, but Loftware owns the integration layer to printers and lines.",
+   "Validation (21 CFR Part 11, EU MDR), printer integrations and global deployments are strong barriers.",
+   "Labels must print through an integrated system on the line; agents cannot bypass it.",
+   "Re-validating labeling across sites and lines is costly and risky; switching is rare."
+  ],
+  "or": [
+   "Label content creation, translation, proofing and compliance review are heavily cognitive and repetitive.",
+   "Proofing and regulatory checks can drop from days to minutes for many changes.",
+   "An AI compliance and content layer is a natural premium add-on for an installed regulated base.",
+   "Label and regulatory content across thousands of regulated SKUs is specialised and proprietary."
+  ],
+  "exec": "A durable regulated system of record with a strong product-led AI opportunity: automated label compliance, content generation and translation sold to the installed life-sciences base.",
+  "durR": "Validation, integration and switching costs make Loftware hard to displace.",
+  "oppR": "The step-change is in label proofing, regulatory checks and content creation, monetised as premium modules."
+ },
+ "Net32": {
+  "D": 50,
+  "O": 65,
+  "score": 57,
+  "d": [
+   6,
+   5,
+   5,
+   4,
+   5
+  ],
+  "o": [
+   7,
+   7,
+   6,
+   6
+  ],
+  "dr": [
+   "The paid outcome is cheaper supplies delivered — AI cannot ship gloves, but it can find the cheapest price elsewhere.",
+   "Value may migrate to AI purchasing agents and practice-management platforms that control reorder.",
+   "Marketplace liquidity is a barrier, but AI lowers the cost of comparison shopping.",
+   "AI buying agents could bypass the marketplace and buy directly from vendors.",
+   "Practices have low switching costs; loyalty comes from price and convenience."
+  ],
+  "or": [
+   "Catalog matching, pricing, customer service and marketing are highly AI-applicable.",
+   "Catalog normalisation and reorder automation can be step-changes.",
+   "AI-driven reorder and procurement agents could deepen practice lock-in.",
+   "Purchase data across thousands of practices is valuable for demand and pricing."
+  ],
+  "exec": "A marketplace with moderate durability — AI buying agents are a real disintermediation risk — but high opportunity to become the practice’s automated purchasing agent before someone else does.",
+  "durR": "Low switching costs and AI comparison shopping pressure the middle-layer position.",
+  "oppR": "The play is to own reorder automation and catalog intelligence."
+ },
+ "Revecore": {
+  "D": 56,
+  "O": 85,
+  "score": 69,
+  "d": [
+   5,
+   5,
+   6,
+   6,
+   6
+  ],
+  "o": [
+   9,
+   9,
+   8,
+   8
+  ],
+  "dr": [
+   "AI can replicate much of the claim analysis that hospitals pay for, but contingency recovery requires payer engagement and accountability.",
+   "Value may migrate to EHR and RCM platforms that build denial and underpayment AI natively.",
+   "Payer relationships, specialised claim expertise and contingency contracts are moderate barriers.",
+   "Hospitals could deploy AI tools directly rather than outsourcing, though complex claims still need specialists.",
+   "Contingency relationships are sticky, but hospitals can rebid."
+  ],
+  "or": [
+   "Thousands of specialists review claims, contracts and correspondence — classic high-volume cognitive work.",
+   "Claim review, underpayment detection and appeal drafting can compress from hours to minutes.",
+   "AI lets Revecore take on more claim types and lower-dollar claims profitably.",
+   "Decades of payer behaviour and recovery outcomes are proprietary and valuable."
+  ],
+  "exec": "A classic high-opportunity services business: a large cognitive workforce doing rules-and-judgment claim work. AI can expand recovery yield and margin significantly; durability depends on moving faster than hospitals and RCM platforms.",
+  "durR": "Specialist expertise and payer relationships give moderate protection; platform-native AI is the main threat.",
+  "oppR": "The step-change is in underpayment detection, appeal drafting and correspondence handling at volume."
+ },
+ "Syner-G": {
+  "D": 50,
+  "O": 82.5,
+  "score": 64.2,
+  "d": [
+   4,
+   5,
+   5,
+   5,
+   6
+  ],
+  "o": [
+   9,
+   8,
+   7,
+   9
+  ],
+  "dr": [
+   "Much of the paid deliverable — regulatory documents, gap assessments, CMC narratives — is knowledge work AI can partly produce.",
+   "Value may shift to regulatory software platforms with built-in AI authoring.",
+   "Regulatory expertise and client trust are barriers, but lower for routine document work.",
+   "Sponsors could use AI tools directly for routine authoring.",
+   "Relationships with sponsors are sticky, but project-based."
+  ],
+  "or": [
+   "Large teams of regulatory and CMC specialists produce documents and assessments.",
+   "Drafting and review of submissions can be cut by more than half.",
+   "AI enables fixed-price, faster submission products.",
+   "Deep CMC and regulatory knowledge across many programs is specialised."
+  ],
+  "exec": "A professional services business with substitutable cognitive labour (moderate-low durability) and very large unrealised AI opportunity — similar to an accounting or advisory firm.",
+  "durR": "Routine regulatory authoring is substitutable; specialised judgment and accountability still protect complex work.",
+  "oppR": "The biggest gains are in submission drafting, regulatory intelligence and CMC document review."
+ },
+ "UnisLink": {
+  "D": 52,
+  "O": 82.5,
+  "score": 65.5,
+  "d": [
+   5,
+   5,
+   5,
+   5,
+   6
+  ],
+  "o": [
+   9,
+   9,
+   7,
+   8
+  ],
+  "dr": [
+   "Claims, coding and follow-up are increasingly automatable; clients pay for collections, not effort.",
+   "Value may shift to EHR and clearinghouse vendors embedding AI RCM.",
+   "HITRUST, specialty knowledge and payer relationships give moderate protection.",
+   "Practices could adopt AI RCM software directly.",
+   "Outsourced RCM relationships are sticky once embedded."
+  ],
+  "or": [
+   "Hundreds of billers, coders and AR staff do high-volume rules-based work.",
+   "Coding, denials and AR follow-up can compress dramatically.",
+   "AI enables more value-based-care analytics and care-gap services.",
+   "Specialty-specific payer and coding data is valuable."
+  ],
+  "exec": "A high-opportunity RCM services business. Large rules-based workforce means AI can transform margin; durability depends on owning AI faster than EHR vendors.",
+  "durR": "Moderate protection from specialty expertise and embedded relationships.",
+  "oppR": "Coding, denial prevention and AR follow-up are the biggest levers."
+ },
+ "3Play Media": {
+  "D": 40,
+  "O": 77.5,
+  "score": 55.7,
+  "d": [
+   3,
+   4,
+   4,
+   4,
+   5
+  ],
+  "o": [
+   8,
+   8,
+   8,
+   7
+  ],
+  "dr": [
+   "ASR and AI dubbing replicate much of the paid outcome; willingness to pay for basic captions is falling.",
+   "Value migrates to platforms (YouTube, Zoom, video hosts) offering built-in AI captions.",
+   "AI lowers barriers to entry significantly.",
+   "Video platforms can bypass third-party captioning.",
+   "Integrations and compliance accuracy create some stickiness."
+  ],
+  "or": [
+   "Human editing, QA and description writing are highly AI-applicable.",
+   "Editing hours per media minute can fall sharply.",
+   "AI dubbing, audio description and localization open new revenue lines.",
+   "Accuracy and compliance standards (ADA, WCAG) expertise is valuable."
+  ],
+  "exec": "Low durability as AI commoditises captioning, but high opportunity to shift into AI dubbing, audio description and compliance-grade quality as premium services.",
+  "durR": "Basic captioning is being commoditised by platform-native AI.",
+  "oppR": "The future lies in premium AI-assisted dubbing, description and compliance QA."
+ },
+ "Alarm Connections": {
+  "D": 54,
+  "O": 57.5,
+  "score": 55.7,
+  "d": [
+   6,
+   5,
+   5,
+   5,
+   6
+  ],
+  "o": [
+   6,
+   6,
+   6,
+   5
+  ],
+  "dr": [
+   "Monitoring and installation are physical and regulated; AI improves verification but doesn’t replace the service.",
+   "Value may shift to DIY platforms and smart-home ecosystems.",
+   "Licensing and local relationships provide moderate barriers.",
+   "DIY systems and big platforms can bypass local dealers.",
+   "Monitoring contracts are sticky but face churn."
+  ],
+  "or": [
+   "Customer service, account acquisition analysis and dealer support are AI-applicable.",
+   "Moderate improvements in churn prediction and service.",
+   "AI-assisted video verification and smart-home upsells add revenue.",
+   "Account and churn data is proprietary but limited."
+  ],
+  "exec": "A moderately durable recurring-revenue security business. AI matters mostly for churn reduction, account valuation and customer service.",
+  "durR": "Physical service and licensing protect the core; DIY platforms are the main threat.",
+  "oppR": "The main levers are churn prediction, acquisition underwriting and service."
+ },
+ "Calero": {
+  "D": 62,
+  "O": 70,
+  "score": 65.9,
+  "d": [
+   6,
+   6,
+   6,
+   6,
+   7
+  ],
+  "o": [
+   7,
+   7,
+   7,
+   7
+  ],
+  "dr": [
+   "Invoice audit and optimisation is increasingly automatable, but enterprises pay for managed outcomes.",
+   "Value may migrate to cloud and SaaS management platforms.",
+   "Carrier integrations and data history give moderate barriers.",
+   "Enterprises might use AI tools to audit directly.",
+   "Managed services contracts and integrations create stickiness."
+  ],
+  "or": [
+   "Invoice audit, contract review and optimisation are highly cognitive.",
+   "Audit and optimisation can be faster and more thorough.",
+   "AI enables cloud/SaaS optimisation and benchmarking products.",
+   "Spend data across thousands of enterprises is valuable for benchmarks."
+  ],
+  "exec": "A moderately durable spend-management platform with strong AI opportunity to automate audits and sell benchmarking and SaaS optimisation.",
+  "durR": "Integrations and managed services protect the base; AI-native spend tools are a threat.",
+  "oppR": "Audit automation and benchmarking are the main opportunities."
+ },
+ "Convergence Networks": {
+  "D": 50,
+  "O": 72.5,
+  "score": 60.2,
+  "d": [
+   5,
+   5,
+   4,
+   5,
+   6
+  ],
+  "o": [
+   8,
+   8,
+   7,
+   6
+  ],
+  "dr": [
+   "Tier-1 support and monitoring are substitutable by AI agents.",
+   "Value may shift to software vendors with embedded AI support.",
+   "MSP market has low barriers; AI lowers them further.",
+   "Vendors could offer direct AI support, bypassing MSPs.",
+   "Managed contracts are sticky but price-pressured."
+  ],
+  "or": [
+   "Service desk, NOC and security monitoring are heavily cognitive and repetitive.",
+   "Ticket resolution and triage can compress significantly.",
+   "AI-driven vCIO and security services can add revenue.",
+   "Client environment data is moderately valuable."
+  ],
+  "exec": "An MSP with substitutable tier-1 labour and strong AI opportunity in service desk and NOC automation, plus higher-value advisory services.",
+  "durR": "Low barriers and AI-native support tools pressure margins.",
+  "oppR": "Service desk and NOC automation are the main levers."
+ },
+ "Openforce": {
+  "D": 62,
+  "O": 67.5,
+  "score": 64.7,
+  "d": [
+   6,
+   6,
+   6,
+   6,
+   7
+  ],
+  "o": [
+   7,
+   7,
+   7,
+   6
+  ],
+  "dr": [
+   "Onboarding and compliance verification are automatable, but clients pay for an accountable platform managing misclassification risk.",
+   "Value may migrate to payroll and HR platforms.",
+   "Insurance programs and payment rails create moderate barriers.",
+   "Large clients could build in-house, but rarely do.",
+   "Embedded settlements and insurance make switching painful."
+  ],
+  "or": [
+   "Document verification, settlement exceptions and contractor support are cognitive and repetitive.",
+   "Onboarding and settlement processing can compress significantly.",
+   "AI can power workforce planning and insurance products.",
+   "Data on 1.3M contractors and $5B payments is valuable."
+  ],
+  "exec": "A moderately durable platform with embedded payments and insurance; AI opportunity in onboarding automation, settlement exceptions and new risk products.",
+  "durR": "Payments and insurance integrations protect the platform.",
+  "oppR": "Onboarding automation and new insurance/risk products are the main levers."
+ }
+}

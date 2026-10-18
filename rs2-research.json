@@ -1,0 +1,455 @@
+{
+ "Ergotron": [
+  {
+   "p": 1,
+   "a": "forecast",
+   "n": "Connected cart fleet intelligence",
+   "w": "Hospitals cannot see which carts are in use, which batteries are failing or where devices sit idle, so they over-buy and suffer downtime at the bedside.",
+   "i": "Turn cart power and usage telemetry into a fleet dashboard: battery failure prediction, utilisation by unit, and right-sizing recommendations at refresh.",
+   "k": "Subscription attach; battery-related downtime; carts per bed",
+   "s": "https://ergotron.com",
+   "rev": {
+    "customers": 2500,
+    "attach": 0.2,
+    "price": 6000,
+    "build": 220000,
+    "basis": "Fleet-intelligence subscription · 2,500 hospital accounts × 20% attach × $6,000/yr"
+   }
+  },
+  {
+   "p": 2,
+   "a": "docs",
+   "n": "Configure-price-quote agent for healthcare projects",
+   "w": "Hospital cart and mounting projects arrive as floor plans, spec sheets and emails; quoting takes days of inside-sales and engineering time.",
+   "i": "Read the request, configure the right carts, mounts and power options, price against contract, and return a draft quote for approval.",
+   "k": "Quote turnaround; quote-to-order rate; inside-sales hours",
+   "s": "https://ergotron.com"
+  },
+  {
+   "p": 3,
+   "a": "service",
+   "n": "Distributor and customer service agent",
+   "w": "Order status, warranty and parts questions from distributors and hospitals consume the service team.",
+   "i": "Resolve status, warranty eligibility and parts lookups automatically; open RMAs with the evidence attached.",
+   "k": "Tickets deflected; RMA cycle time",
+   "s": "https://ergotron.com"
+  }
+ ],
+ "KMM Group": [
+  {
+   "p": 1,
+   "a": "docs",
+   "n": "RFQ estimating agent",
+   "w": "RFQs arrive as drawings and PDFs; estimators spend hours per quote and slow response loses work.",
+   "i": "Read the drawing, identify features and tolerances, match to similar past jobs, estimate cycle time and cost, and draft the quote for estimator approval.",
+   "k": "Quote turnaround; win rate; estimator hours",
+   "s": "https://kmmgrp.com",
+   "rev": {
+    "customers": 1,
+    "attach": 1,
+    "price": 1500000,
+    "build": 200000,
+    "basis": "Win-rate lift · +2.5 pts on ~$60M quoted pipeline from same-day quotes"
+   }
+  },
+  {
+   "p": 2,
+   "a": "drafting",
+   "n": "First article & inspection report automation",
+   "w": "First article inspection reports and device history records are compiled manually from CMM output and travelers.",
+   "i": "Assemble FAI and inspection reports from CMM data and travelers, flag out-of-tolerance features, and route for quality sign-off.",
+   "k": "Quality documentation hours; release lead time",
+   "s": "https://kmmgrp.com"
+  },
+  {
+   "p": 3,
+   "a": "maintenance",
+   "n": "Process yield & tool wear prediction",
+   "w": "Scrap on micron-tolerance grinding comes from drifting wheels and tooling caught only at inspection.",
+   "i": "Predict tool wear and dimensional drift from machine and inspection data; recommend dressing or replacement before scrap.",
+   "k": "Scrap rate; first-pass yield; unplanned downtime",
+   "s": "https://kmmgrp.com"
+  }
+ ],
+ "Loftware": [
+  {
+   "p": 1,
+   "a": "risk",
+   "n": "AI label compliance checker",
+   "w": "Every label change needs manual proofing against UDI, EU MDR and market rules; errors cause recalls and delays.",
+   "i": "Check each label against regulatory rules, master data and the approved artwork; highlight discrepancies with the rule cited.",
+   "k": "Proofing time; label errors; change cycle time",
+   "s": "https://loftware.com",
+   "rev": {
+    "customers": 6000,
+    "attach": 0.15,
+    "price": 12000,
+    "build": 300000,
+    "basis": "Compliance module · 6,000 customers × 15% attach × $12,000/yr"
+   }
+  },
+  {
+   "p": 2,
+   "a": "drafting",
+   "n": "Label content generation & translation",
+   "w": "Creating multilingual label content for new markets requires translators and regulatory review.",
+   "i": "Generate compliant label text and symbols per market from product data, with translations and a review queue.",
+   "k": "Time to market; translation cost",
+   "s": "https://loftware.com",
+   "rev": {
+    "customers": 6000,
+    "attach": 0.1,
+    "price": 15000,
+    "build": 250000,
+    "basis": "Content module · 6,000 customers × 10% attach × $15,000/yr"
+   }
+  },
+  {
+   "p": 3,
+   "a": "service",
+   "n": "Implementation & support copilot",
+   "w": "Complex integrations make implementation and support labour-heavy.",
+   "i": "Grounded assistant over docs, configurations and tickets to resolve support questions and guide implementations.",
+   "k": "Support tickets; implementation hours",
+   "s": "https://loftware.com"
+  }
+ ],
+ "Net32": [
+  {
+   "p": 1,
+   "a": "forecast",
+   "n": "Automated reorder agent for practices",
+   "w": "Practices reorder by habit and run out of essentials, then pay rush prices.",
+   "i": "Predict each practice’s usage, propose a monthly reorder at the best vendor price, and auto-place orders with approval.",
+   "k": "Orders per practice; GMV per account; retention",
+   "s": "https://net32.com",
+   "rev": {
+    "customers": 1,
+    "attach": 1,
+    "price": 3500000,
+    "build": 250000,
+    "basis": "GMV lift · +5% repeat-order GMV on ~$70M take-rate revenue base"
+   }
+  },
+  {
+   "p": 2,
+   "a": "docs",
+   "n": "Catalog matching & normalisation",
+   "w": "The same product appears under many vendor listings and names, confusing buyers and hurting price comparison.",
+   "i": "Match and normalise vendor listings into one canonical product with attributes and equivalents.",
+   "k": "Match coverage; search conversion",
+   "s": "https://net32.com"
+  },
+  {
+   "p": 3,
+   "a": "service",
+   "n": "Order & returns service agent",
+   "w": "Order status and return questions consume the service team.",
+   "i": "Resolve status, returns and vendor issues automatically with escalation.",
+   "k": "Tickets deflected; resolution time",
+   "s": "https://net32.com"
+  }
+ ],
+ "Revecore": [
+  {
+   "p": 1,
+   "a": "risk",
+   "n": "Underpayment detection & contract modelling",
+   "w": "Underpayments hide in complex payer contracts; analysts only review a fraction of claims.",
+   "i": "Model every claim against contract terms, flag underpayments with the expected amount and clause, and prioritise by recoverable value.",
+   "k": "Recovered dollars; claims reviewed per analyst",
+   "s": "https://revecore.com",
+   "rev": {
+    "customers": 1,
+    "attach": 1,
+    "price": 6000000,
+    "build": 350000,
+    "basis": "Recovery lift · +4% on ~$150M revenue from reviewing every claim"
+   }
+  },
+  {
+   "p": 2,
+   "a": "drafting",
+   "n": "Appeal letter drafting",
+   "w": "Appeals take specialists hours to research and write.",
+   "i": "Draft evidence-backed appeals citing contract, policy and chart evidence for specialist review.",
+   "k": "Appeals per day; overturn rate",
+   "s": "https://revecore.com"
+  },
+  {
+   "p": 3,
+   "a": "docs",
+   "n": "Payer correspondence intake",
+   "w": "Mail, faxes and portal messages arrive unstructured and are keyed by hand.",
+   "i": "Classify, extract and route correspondence to the right claim automatically.",
+   "k": "Keying hours; correspondence backlog",
+   "s": "https://revecore.com"
+  }
+ ],
+ "Syner-G": [
+  {
+   "p": 1,
+   "a": "drafting",
+   "n": "CMC Module 3 drafting assistant",
+   "w": "Writing Module 3 CMC sections takes weeks of specialist time per submission.",
+   "i": "Draft Module 3 sections from development reports and batch data, with every statement linked to source documents.",
+   "k": "Drafting hours; submission timelines",
+   "s": "https://synergbiopharma.com",
+   "rev": {
+    "customers": 1,
+    "attach": 1,
+    "price": 4000000,
+    "build": 300000,
+    "basis": "Capacity lift · +4% on ~$100M revenue from more submissions per consultant"
+   }
+  },
+  {
+   "p": 2,
+   "a": "risk",
+   "n": "Regulatory intelligence monitor",
+   "w": "Consultants track guidance changes across FDA, EMA and other agencies manually.",
+   "i": "Monitor guidance updates, summarise impact by client program, and alert the team.",
+   "k": "Monitoring hours; client alerts delivered",
+   "s": "https://synergbiopharma.com"
+  },
+  {
+   "p": 3,
+   "a": "docs",
+   "n": "Tech transfer document review",
+   "w": "Tech transfer packages require line-by-line review for gaps and inconsistencies.",
+   "i": "Review documents against templates and requirements; flag gaps with citations.",
+   "k": "Review time; findings caught",
+   "s": "https://synergbiopharma.com"
+  }
+ ],
+ "UnisLink": [
+  {
+   "p": 1,
+   "a": "risk",
+   "n": "Denial prevention & claim scrubbing",
+   "w": "Denials are predictable from payer rules and history but caught after submission.",
+   "i": "Score claims pre-submission, fix gaps and route exceptions.",
+   "k": "First-pass rate; days in AR",
+   "s": "https://unislink.com",
+   "rev": {
+    "customers": 1,
+    "attach": 1,
+    "price": 3000000,
+    "build": 250000,
+    "basis": "Collections lift · +2.5% on ~$120M revenue from fewer denials"
+   }
+  },
+  {
+   "p": 2,
+   "a": "docs",
+   "n": "AI coding assistant",
+   "w": "Coders review every chart manually.",
+   "i": "Suggest codes with evidence for coder validation.",
+   "k": "Coder productivity; accuracy",
+   "s": "https://unislink.com"
+  },
+  {
+   "p": 3,
+   "a": "service",
+   "n": "AR follow-up agent",
+   "w": "AR staff spend hours on payer calls and portals.",
+   "i": "Automate claim status checks and draft follow-ups.",
+   "k": "AR days; touches per claim",
+   "s": "https://unislink.com"
+  }
+ ],
+ "3Play Media": [
+  {
+   "p": 1,
+   "a": "drafting",
+   "n": "AI dubbing & voice localization",
+   "w": "Localization through human voice actors is expensive and slow.",
+   "i": "AI voice dubbing with human QA, sold per media minute.",
+   "k": "Dubbing revenue; turnaround",
+   "s": "https://3playmedia.com",
+   "rev": {
+    "customers": 10000,
+    "attach": 0.1,
+    "price": 5000,
+    "build": 300000,
+    "basis": "New service · 10,000 customers × 10% attach × $5,000/yr"
+   }
+  },
+  {
+   "p": 2,
+   "a": "vision",
+   "n": "AI audio description",
+   "w": "Writing audio description scripts requires trained describers.",
+   "i": "Generate description scripts from video for human editing.",
+   "k": "Description turnaround; cost per minute",
+   "s": "https://3playmedia.com",
+   "rev": {
+    "customers": 10000,
+    "attach": 0.08,
+    "price": 4000,
+    "build": 250000,
+    "basis": "Description service · 10,000 customers × 8% attach × $4,000/yr"
+   }
+  },
+  {
+   "p": 3,
+   "a": "risk",
+   "n": "Caption QA automation",
+   "w": "Human editors review every transcript.",
+   "i": "Flag low-confidence segments for targeted editing.",
+   "k": "Editor hours per minute; accuracy",
+   "s": "https://3playmedia.com"
+  }
+ ],
+ "Alarm Connections": [
+  {
+   "p": 1,
+   "a": "risk",
+   "n": "Account acquisition underwriting",
+   "w": "Valuing alarm account portfolios for purchase is manual and risky.",
+   "i": "Score portfolios on churn, payment history and equipment age to price acquisitions.",
+   "k": "Acquisition accuracy; attrition on acquired accounts",
+   "s": "https://alarmconnections.com"
+  },
+  {
+   "p": 2,
+   "a": "forecast",
+   "n": "Churn prediction & save program",
+   "w": "Monitoring customers cancel silently.",
+   "i": "Predict churn and trigger targeted save offers.",
+   "k": "RMR retention",
+   "s": "https://alarmconnections.com",
+   "rev": {
+    "customers": 1,
+    "attach": 1,
+    "price": 600000,
+    "build": 150000,
+    "basis": "Retention lift · 1.5 pts on ~$40M RMR base"
+   }
+  },
+  {
+   "p": 3,
+   "a": "service",
+   "n": "Customer service agent",
+   "w": "Billing and service calls burden the call center.",
+   "i": "Resolve billing and service questions automatically.",
+   "k": "Calls deflected",
+   "s": "https://alarmconnections.com"
+  }
+ ],
+ "Calero": [
+  {
+   "p": 1,
+   "a": "risk",
+   "n": "Invoice audit agent",
+   "w": "Telecom and cloud invoices hide billing errors that analysts miss.",
+   "i": "Audit every invoice line against contracts and flag recoverable errors.",
+   "k": "Savings recovered; analyst hours",
+   "s": "https://calero.com"
+  },
+  {
+   "p": 2,
+   "a": "forecast",
+   "n": "SaaS & cloud optimisation add-on",
+   "w": "Enterprises overpay for unused SaaS and cloud.",
+   "i": "Identify unused licences and rightsizing with savings estimates.",
+   "k": "Savings identified; module revenue",
+   "s": "https://calero.com",
+   "rev": {
+    "customers": 3000,
+    "attach": 0.15,
+    "price": 20000,
+    "build": 300000,
+    "basis": "Optimisation module · 3,000 customers × 15% attach × $20,000/yr"
+   }
+  },
+  {
+   "p": 3,
+   "a": "copilot",
+   "n": "Spend benchmarking copilot",
+   "w": "Customers lack context on whether their rates are competitive.",
+   "i": "Benchmark rates against anonymised peer data with recommendations.",
+   "k": "Renegotiation savings",
+   "s": "https://calero.com",
+   "rev": {
+    "customers": 3000,
+    "attach": 0.1,
+    "price": 15000,
+    "build": 200000,
+    "basis": "Benchmarking module · 3,000 customers × 10% attach × $15,000/yr"
+   }
+  }
+ ],
+ "Convergence Networks": [
+  {
+   "p": 1,
+   "a": "service",
+   "n": "Tier-1 service desk agent",
+   "w": "Technicians handle repetitive resets and how-to tickets.",
+   "i": "Resolve routine tickets end-to-end with escalation.",
+   "k": "Tickets per tech; resolution time",
+   "s": "https://convergencenetworks.com"
+  },
+  {
+   "p": 2,
+   "a": "risk",
+   "n": "NOC alert triage",
+   "w": "Alerts overwhelm the NOC.",
+   "i": "Enrich and auto-close benign alerts; escalate real ones.",
+   "k": "Alerts per engineer; MTTR",
+   "s": "https://convergencenetworks.com"
+  },
+  {
+   "p": 3,
+   "a": "drafting",
+   "n": "vCIO business review drafting",
+   "w": "Quarterly business reviews take hours to prepare.",
+   "i": "Draft QBRs from tickets, assets and security data with recommendations.",
+   "k": "QBR prep time; upsell rate",
+   "s": "https://convergencenetworks.com",
+   "rev": {
+    "customers": 1500,
+    "attach": 0.2,
+    "price": 3000,
+    "build": 150000,
+    "basis": "vCIO add-on · 1,500 clients × 20% attach × $3,000/yr"
+   }
+  }
+ ],
+ "Openforce": [
+  {
+   "p": 1,
+   "a": "docs",
+   "n": "Onboarding document verification",
+   "w": "Licences, insurance certificates and vehicle documents are reviewed manually.",
+   "i": "Verify documents automatically and route exceptions.",
+   "k": "Onboarding time; drop-off",
+   "s": "https://oforce.com"
+  },
+  {
+   "p": 2,
+   "a": "risk",
+   "n": "Misclassification risk monitor",
+   "w": "Clients face misclassification risk from contracting practices.",
+   "i": "Monitor contracting patterns and flag risk with recommendations.",
+   "k": "Risk alerts; compliance module revenue",
+   "s": "https://oforce.com",
+   "rev": {
+    "customers": 1000,
+    "attach": 0.2,
+    "price": 12000,
+    "build": 200000,
+    "basis": "Compliance module · 1,000 clients × 20% attach × $12,000/yr"
+   }
+  },
+  {
+   "p": 3,
+   "a": "service",
+   "n": "Contractor support agent",
+   "w": "Contractors ask about settlements and deductions.",
+   "i": "Answer settlement questions automatically, bilingual.",
+   "k": "Tickets deflected",
+   "s": "https://oforce.com"
+  }
+ ]
+}
